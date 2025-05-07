@@ -1,0 +1,21 @@
+.header{
+    background: url(../image/bg-pattern.svg);
+}
+.navbar__logo{
+    width: 190px ;
+    height: 36px ;
+    margin-top: 3.2rem;
+    margin-bottom: 8rem;
+}
+
+@media screen and (max-width: 900px){
+    .navbar__logo{
+        margin-bottom: 6.4rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .navbar__logo{
+        margin-top: 2.4;
+        margin-bottom: 4.8rem;
+    }
+}

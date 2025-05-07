@@ -1,0 +1,35 @@
+.tech{
+    background: url(../image/bg-pattern.svg);
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 6rem;
+}
+.tech__title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    padding-top: 8rem;
+    margin-bottom: 7rem ;
+}
+.tech__wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.tech__card{
+    max-width: 226px;
+    width: 100%;
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    h4{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .tech{
+        display: none;
+    }
+}

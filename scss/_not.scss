@@ -1,0 +1,120 @@
+.not{
+    display: flex;
+    gap: 8rem;
+    margin-top: 150px;
+    position: relative;
+}
+.not__icon{
+    position: absolute;
+    top: 420px;
+    left: 620px;
+}
+.not__icon2{
+    position: absolute;
+    top: 330px;
+    left: 570px;
+}
+.not__icon3{
+    position: absolute;
+    top: 420px;
+    left: 540px;
+}
+.not__img{
+    width: 50%;
+.not__image{
+        border-radius: 1rem;
+        object-fit: cover;
+    }
+}
+.not__title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        font-size: 4.5rem;
+        font-weight: 600;
+        margin-bottom: 2.4rem;
+        span{
+            background: url(../image/path158.svg);
+        }
+    }
+    p{
+        color: #385159;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:970px) {
+    .not{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        .not__icon{
+    position: absolute;
+    top: 820px;
+    left: 620px;
+}
+.not__icon2{
+    position: absolute;
+    top: 730px;
+    left: 570px;
+}
+.not__icon3{
+    position: absolute;
+    top:820px;
+    left: 540px;
+}
+    }
+}
+    .not__title{
+       width: 100%;
+
+}
+    .not__img{
+        width: 100%;
+        .not__image{
+            width: 100%;
+        }
+}
+@media screen and (max-width:700px) {
+    .not{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        .not__icon{
+           display: none;
+        }
+        .not__icon2{
+            display: none;
+        }
+        .not__icon3{
+            display: none;
+        }
+    }
+    .not__title{
+       width: 100%;
+       h2{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+       }
+   }
+}
+@media screen and (max-width:400px) {
+    .not{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .not__title{
+       width: 100%;
+       h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+       }
+
+   }
+}
